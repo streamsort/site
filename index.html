@@ -1,9 +1,8 @@
 <!DOCTYPE html>
-<html>
-<title>MacroAIS</title>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>MacroAIS</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">-->
 <link rel="stylesheet" href="https://cdn.macroais.com/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
@@ -11,12 +10,12 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   <meta content="MacroAIS" property=og:site_name>
-   <meta content="MacroAIS" property=og:title>
-   <meta content="Welcome to MacroAIS! We are an Apps, Integration and Software. This is the home page!" property=og:description>
-   <meta content="https://macroais.com/images/logo.png" property=og:image>
-   <meta content=https://macroais.com property=og:url>
-   <meta content=#c09f00 name=theme-color>
+   <meta content="MacroAIS" property="og:site_name">
+   <meta content="MacroAIS" property="og:title">
+   <meta content="Welcome to MacroAIS! We are an Apps, Integration and Software. This is the home page!" property="og:description">
+   <meta content="https://macroais.com/images/logo.png" property="og:image">
+   <meta content="https://macroais.com" property="og:url">
+   <meta content="#c09f00" name="theme-color">
 
 <style>
 body,h1 {font-family: "Raleway", sans-serif}
@@ -33,8 +32,9 @@ body, html {height: 100%}
   background-position: center;
   background-size: cover;
 }
+#translucent { display: block; background-color: rgba(0,0,0,0.3); padding: 1em 2em; color: #fff; font-size: 25px;border-radius: 25px; }
 </style>
-<body>
+</head><body cz-shortcut-listen="true">
 <div class="w3-top">
   <div class="w3-bar w3-black w3-card">
     <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
@@ -48,11 +48,10 @@ body, html {height: 100%}
         <a href="https://macroais.com/status/" class="w3-bar-item w3-button">Status</a>  
       </div>
     </div>
-    <!--<a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>-->
   </div>
 </div>
 <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-  <a href="https://macroais.com" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
+  <a href="https://macroais.com/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
   <a href="https://group.macroais.com/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MacroAIS Group</a>
   <a href="https://macroais.com/shop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shop</a>
   <a href="https://macroais.com/contact/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
@@ -61,19 +60,23 @@ body, html {height: 100%}
 <div class="bgimg2 w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topleft w3-padding-large w3-xlarge">
     <h4>⠀</h4>
-    <a href="https://macroais.com/"><img alt="Logo" src="https://cdn.macroais.com/images/outlineChangeable.png"width="64" height="64"></a>
+    <a href="https://macroais.com/"><img alt="Logo" src="https://cdn.macroais.com/images/outlineChangeable.png" width="64" height="64"></a>
   </div>
   <div class="w3-display-middle">
-     <h1 class="w3-jumbo w3-animate-top w3-center"><b>Welcome</b></h1>
-    <p class="w3-large w3-center"><b>to the site for MacroAIS</b></p>
-     <p class="w3-medium w3-center"><b>Check out our available products and services in <a href="https://macroais.com/shop">MacroAIS Shop</a> and check out other things we provide in <a href="https://group.macroais.com">MacroAIS Group</a></b></p>
+    <div id="translucent">
+      <h1 class="w3-jumbo w3-center">Welcome</h1>
+    <p class="w3-large w3-center">to the site for MacroAIS</p>
+     <p class="w3-medium w3-center">Check out our available products and services in <a href="https://macroais.com/shop">MacroAIS Shop</a> and check out other things we provide in <a href="https://group.macroais.com/">MacroAIS Group</a></p>
+    </div>
+     
   </div>
 </div>
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-black">
   <div class="w3-display-middle">
-    <h1 class="w3-medium w3-center"><b>We are MacroAIS, a small business founded in Manchester, UK in May of 2020</b></h1>
-    <h1 class="w3-medium w3-center"><b>Our aim is to provide Apps, Integration and Software with online delivery and activation, we have created things like the Actinium Discord bot and other Discord Integrations. We also provide website services and in the process of an application for bookkeeping. <a href="https://macroais.com/products">Click here</a> to go to our products page!</b></h1>
-  </div>
+    <div id="translucent">
+      <h1 class="w3-medium w3-center">We are MacroAIS, a small business founded in Manchester, UK in May of 2020</h1>
+      <h1 class="w3-medium w3-center">Our aim is to provide Apps, Integration and Software with online delivery and activation, we have created things like the Actinium Discord bot and other Discord Integrations. We also provide website services and in the process of an application for bookkeeping. <a href="https://macroais.com/products">Click here</a> to go to our products page!</h1>
+    </div>
 </div>
 <script>
   function myFunction() {
@@ -85,5 +88,6 @@ body, html {height: 100%}
   }
 }
 </script>
-</body>
-</html>
+
+
+</body></html>
