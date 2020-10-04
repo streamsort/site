@@ -1,0 +1,140 @@
+/* General */
+@font-face{
+    font-family: sans-serif;
+    src: url(Candara.ttf)
+}
+@font-face{
+    font-family: sans-serif;
+    src: url(Candaral.ttf)
+}
+
+/* Interface */
+.button2 { /*Curved*/
+    border: none;
+    border-radius: 128px;
+    background: linear-gradient(145deg, #ffffff, rgba(126, 138, 174, 0.25));
+    box-shadow:  2px 4px 3px rgba(126, 138, 174, 0.25), 
+                -2px -4px 3px #ffffff;
+    padding: 10px;
+    margin-left: 1.5rem;
+}
+
+/* Containers */
+.translucent1 { /*70% Rectangular*/
+    background-color: rgba(0,0,0,0.7);
+    padding: 1em 2em;
+    color: #ccc;
+    display: block;
+}
+.translucent2 { /*30% Curved*/
+    background-color: rgba(0,0,0,0.3);
+    padding: 1em 2em;
+    color: #fff;
+    display: block;
+    border-radius: 25px;
+}
+.tipContainer1 { /*Cyan Trans Centre-Centre-Bottom*/
+    background-color: rgba(0,255,255,0.3);
+    width: 5.3em;
+    padding: 1em;
+    color: #fff;
+    display: block;
+    border-radius: 25px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.fullContainer1 { /*Invisible*/
+    background-color: rgba(0,0,0,0);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.fullContainer2 { /*Invisible*/
+    background-color: rgba(0,0,0,0);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 100%;
+    width: 98%;
+}
+.fullContainer3 { /*Invisible*/
+    background-color: rgba(0,0,0,0);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    top: 200%;
+    width: 98%;
+}
+/* Menu Panel */
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #282828;
+}  
+.menu li {
+    float: left;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}  
+.menu li a:hover:not(.active) {
+    background-color: #383838;
+}
+.menu .active {
+    background-color: #92d050;
+}
+
+/* Alignment */
+.txtcenter {
+    text-align: center;
+}
+.fcenter {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+/* Text - Colours */
+.white {
+    color: white;
+}
+.link{
+    color:#00aeef;
+}
+
+/*Text - Fonts*/
+.stdf {
+    font-family: "Candara";
+}
+.light {
+    font-family: "Candaral";
+}
+
+/* Text - Sizes */
+.jumbo {
+    font-size: 10em;
+}
+.large {
+    font-size: 7em;
+}
+.medium {
+    font-size: 5em;
+}
+.small {
+    font-size: 3em;
+}
