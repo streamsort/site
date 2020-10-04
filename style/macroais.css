@@ -47,6 +47,20 @@
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
 }
+.tipContainer2 { /*Cyan Trans Centre-Centre-Bottom*/
+    background-color: rgba(0,255,255,0.3);
+    width: 7.5em;
+    padding: 1em;
+    color: #fff;
+    display: block;
+    border-radius: 25px;
+    margin: 0;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
 .fullContainer1 { /*Invisible*/
     background-color: rgba(0,0,0,0);
     height: 100%;
