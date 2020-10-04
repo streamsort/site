@@ -1,76 +1,42 @@
 <!DOCTYPE html>
 <html>
-<title>Contact Page</title>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"><title>Contact Page</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+<link rel="stylesheet" href="https://macroais.com/style/macroais.css">
 <link rel="shortcut icon" href="https://cdn.macroais.com/images/favicon.ico" />
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-   <meta content="MacroAIS - Contact" property=og:site_name>
-   <meta content="MacroAIS - Contact" property=og:title>
-   <meta content="This webpage is how you can contact us at MacroAIS" property=og:description>
-   <meta content="https://macroais.com/images/logo.png" property=og:image>
-   <meta content=https://macroais.com/contact property=og:url>
-   <meta content=#c09f00 name=theme-color>
-
+<meta content="MacroAIS - Contact" property=og:site_name>
+<meta content="MacroAIS - Contact" property=og:title>
+<meta content="This webpage is how you can contact us at MacroAIS" property=og:description>
+<meta content="https://macroais.com/images/logo.png" property=og:image>
+<meta content=https://macroais.com/contact property=og:url>
+<meta content=#c09f00 name=theme-color>
+</head>
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
-.bgimg {
-  background-image: url('https://cdn.macroais.com/images/gray.png');
-  min-height: 100%;
-  background-position: center;
-  background-size: cover;
-}
-#translucent { display: block; background-color: rgba(0,0,0,0.3); padding: 1em 2em; color: #fff; font-size: 25px;border-radius: 25px; }
+    .background {
+        background-image: url('https://cdn.macroais.com/images/gray.png');
+        background-size: cover;
+        min-height: 100%;
+    }
 </style>
-<body>
-    <div class="w3-top">
-        <div class="w3-bar w3-black w3-card">
-          <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-          <a href="https://macroais.com/" class="w3-bar-item w3-button w3-padding-large">Home</a>
-          <a href="https://macroais.com/group" class="w3-bar-item w3-button w3-padding-large">MacroAIS Group</a>
-          <a href="https://macroais.com/shop/" class="w3-bar-item w3-button w3-padding-large w3-hide-small">Shop</a>
-          <div class="w3-dropdown-hover w3-hide-small">
-            <button class="w3-padding-large w3-button" title="More">More <i class="fa fa-caret-down"></i></button>     
-            <div class="w3-dropdown-content w3-bar-block w3-card-4">
-              <a href="https://macroais.com/contact/" class="w3-bar-item w3-button">Contact</a>
-              <a href="https://macroais.com/redirect?pName=Status Page&dDest=macroais.statuspage.io&pDest=/" class="w3-bar-item w3-button">Status</a>  
-            </div>
-          </div>
+<body class="background" style="background-color: #000;">
+    <div class="fullContainer1">
+        <div class="menu">
+            <ul>
+                <li><a class="stdf" href="https://macroais.com">Home</a></li>
+                <li><a class="stdf" href="https://macroais.com/group">MacroAIS Group</a></li>
+                <li><a class="stdf" href="https://macroais.com/shop">Shop</a></li>
+                <li><a class="stdf active" href="https://macroais.com/contact">Contact</a></li>
+                <li><a class="stdf" href="https://macroais.com/redirect/?pName=Status%20Page&dDest=macroais.statuspage.io&pDest=/">Status</a></li>
+            </ul>
         </div>
-      </div>
-      <div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
-        <a href="https://macroais.com/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Home</a>
-        <a href="https://macroais.com/group" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MacroAIS Group</a>
-        <a href="https://macroais.com/shop" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Shop</a>
-        <a href="https://macroais.com/contact/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Contact</a>
-        <a href="https://macroais.com/redirect?pName=Status Page&dDest=macroais.statuspage.io&pDest=/" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Status</a>
-      </div>
-<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
-  <div class="w3-display-topleft w3-padding-large w3-xlarge">
-    <h4>⠀</h4>
-    <a href="https://macroais.com/"><img alt="Logo" src="https://cdn.macroais.com/images/outlineChangeable.png"width="64" height="64"></a>
-  </div>
-  <div class="w3-display-middle" id="translucent">
-    <h1 class="w3-xxxlarge w3-center">Contact</h1>
-    <h1 class="w3-xlarge w3-center">You can contact us the following ways:</h1>
-    <h1 class="w3-large w3-center"><a href="mailto:info@macroais.com">Emails (info@macroais.com)</a></h1>
-  </div>
-</div>
-<script>
-  function myFunction() {
-  var x = document.getElementById("navDemo");
-  if (x.className.indexOf("w3-show") == -1) {
-    x.className += " w3-show";
-  } else { 
-    x.className = x.className.replace("w3-show", "");
-  }
-}
-</script>
+        <p style="font-size:5px;">⠀</p>
+        <a href="https://macroais.com/"><img alt="Logo" src="https://cdn.macroais.com/images/outlineChangeable.png" width="64" height="64"></a>
+        <h1 class="white jumbo fcenter stdf">Contact</h1>
+        <p class="tipContainer2 stdf white center"><a href="mailto:info@macroais.com" class="white">info@macroais.com</a></p>
+    </div>
+   <script src="https://nvbmzg4tmqxz.statuspage.io/embed/script.js"></script>
 </body>
 </html>
