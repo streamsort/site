@@ -1,0 +1,16 @@
+{
+  "content": "Guess what",
+  "embed": {
+    "title": "MacroAIS",
+    "description": "is stonks and [right here](https://macroais.com)",
+    "url": "https://macroais.com",
+    "color": 16755215,
+    "footer": {
+      "icon_url": "https://macroais.com/images/logo.png",
+      "text": "MacroAIS"
+    },
+    "thumbnail": {
+      "url": "https://macroais.com/images/logo.png"
+    }
+  }
+}
