@@ -2206,3 +2206,91 @@
      font-style: normal;
      font-display: swap;
    }
+
+
+#ribbon1-container {
+    position: absolute;
+    top: 15px;
+    right: -20px;
+    overflow: visible;
+    
+    font-size: 18px;
+    
+    line-height: 18px;
+  }
+  
+  #ribbon1-container:before {
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 3px;
+    left: 0;
+    border-top: 29px solid rgba(0, 0, 0, .3);
+    
+    border-bottom: 29px solid rgba(0, 0, 0, .3);
+    border-right: 29px solid rgba(0, 0, 0, .3);
+    border-left: 29px solid transparent;
+  }
+  
+  #ribbon1-container:after {
+    content: "";
+    height: 3px;
+    background: rgba(0, 0, 0, .3);
+    display: block;
+    position: absolute;
+    bottom: -3px;
+    left: 58px;
+    right: 3px;
+  }
+  
+  #ribbon1-container a {
+    display: block;
+    padding: 20px;
+    position: relative;
+    
+    background: #c09f00;
+    overflow: visible;
+    height: 58px;
+    margin-left: 29px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #ribbon1-container a:after {
+    
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    right: 0;
+    border-top: 15px solid #c09f00;
+    border-right: 15px solid transparent;
+  }
+  
+  #ribbon1-container a:before {
+    
+    content: "";
+    height: 0;
+    width: 0;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: -29px;
+    border-top: 29px solid #c09f00;
+    border-bottom: 29px solid #c09f00;
+    border-right: 29px solid transparent;
+    border-left: 29px solid transparent;
+  }
+  
+  #ribbon1-container a:hover {
+    background: #d0af10;
+  }
+  
+  #ribbon1-container a:hover:before {
+    border-top: 29px solid #d0af10;
+    border-bottom: 29px solid #d0af10;
+  }
