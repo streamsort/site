@@ -2294,3 +2294,9 @@
     border-top: 29px solid #d0af10;
     border-bottom: 29px solid #d0af10;
   }
+
+#ribbon2 img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
