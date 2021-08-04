@@ -1,0 +1,296 @@
+@font-face {
+      font-family: Candara;
+      src: url(Candara.ttf);
+    }
+* {
+      box-sizing: border-box;
+ }
+  body {
+     margin: 0;
+ }
+ *{
+     box-sizing:border-box;
+ }
+ body{
+     margin:0;
+ }
+ .row{
+     display:flex;
+     justify-content:flex-start;
+     align-items:stretch;
+     flex-wrap:nowrap;
+     padding:10px;
+ }
+ .cell{
+     min-height:75px;
+     flex-grow:1;
+     flex-basis:100%;
+ }
+ ul{
+     list-style-type:none;
+     margin:0;
+     padding:0;
+     overflow:hidden;
+     background-color:#aaa;
+ }
+ li{
+     float:left;
+ }
+ li a{
+     display:block;
+     color:white;
+     text-align:center;
+     padding:14px 16px;
+     text-decoration:none;
+ }
+ li a:hover:not(.active){
+     background-color:#bbb;
+ }
+ #li-navbar a{
+     display:block;
+     color:white;
+     text-align:center;
+     padding:14px 16px;
+     text-decoration:none;
+ }
+ #li-navbar a:hover:not(.active){
+     background-color:#111;
+ }
+ .login form{
+     display:flex;
+     flex-wrap:wrap;
+     justify-content:center;
+     padding-top:20px;
+ }
+ .login form label{
+     display:flex;
+     justify-content:center;
+     align-items:center;
+     width:50px;
+     height:50px;
+     background-color:#ffc000;
+     color:#ffffff;
+ }
+ .login form input[type="password"], .login form input[type="text"]{
+     width:310px;
+     height:50px;
+     border:1px solid #ffffff;
+     margin-bottom:20px;
+     padding:0 15px;
+ }
+ div.r{
+     float:left;
+     border:1px solid red;
+     margin:5px;
+     width:50px;
+     height:50px;
+ }
+ div.individual-review{
+     float:left;
+     border:1px solid #999;
+     margin:20px;
+     padding:10px;
+     undefined:undefined;
+ }
+ table{
+     font-family:arial, sans-serif;
+     border-collapse:collapse;
+     width:100%;
+ }
+ td, th{
+     border:1px solid #dddddd;
+     text-align:left;
+     padding:8px;
+ }
+ tr:nth-child(even){
+     background-color:#dddddd;
+ }
+ .tooltip-component__body, [data-tooltip]::after{
+     font-family:Helvetica, sans-serif;
+     background:rgba(55, 61, 73, 0.95);
+     border-radius:3px;
+     bottom:100%;
+     color:#fff;
+     content:attr(data-tooltip);
+     display:block;
+     font-size:12px;
+     left:50%;
+     line-height:normal;
+     max-width:32rem;
+     opacity:0;
+     overflow:hidden;
+     padding:8px 16px;
+     pointer-events:none;
+     position:absolute;
+     text-overflow:ellipsis;
+     transform:translate(-50%, 0);
+     transition:opacity 0.25s, transform 0.25s;
+     white-space:nowrap;
+     box-sizing:border-box;
+     z-index:10;
+ }
+ [data-tooltip-visible=true]::after, [data-tooltip]:focus::after, [data-tooltip]:hover::after{
+     opacity:1;
+     transform:translate(-50%, -0.5rem);
+ }
+ [data-tooltip-pos=right]::after{
+     bottom:50%;
+     left:100%;
+     transform:translate(0, 50%);
+ }
+ [data-tooltip-pos=right]:focus::after, [data-tooltip-pos=right]:hover::after, [data-tooltip-visible=true][data-tooltip-pos=right]::after{
+     transform:translate(0.5rem, 50%);
+ }
+ [data-tooltip-pos=bottom]::after{
+     bottom:auto;
+     top:100%;
+     transform:translate(-50%, 0);
+ }
+ [data-tooltip-pos=bottom]:focus::after, [data-tooltip-pos=bottom]:hover::after, [data-tooltip-visible=true][data-tooltip-pos=bottom]::after{
+     transform:translate(-50%, 0.5rem);
+ }
+ [data-tooltip-pos=left]::after{
+     bottom:50%;
+     left:auto;
+     right:100%;
+     transform:translate(0, 50%);
+ }
+ [data-tooltip-pos=left]:focus::after, [data-tooltip-pos=left]:hover::after, [data-tooltip-visible=true][data-tooltip-pos=left]::after{
+     transform:translate(-0.5rem, 50%);
+ }
+ [data-tooltip-length=small]::after{
+     white-space:normal;
+     width:80px;
+ }
+ [data-tooltip-length=medium]::after{
+     white-space:normal;
+     width:150px;
+ }
+ [data-tooltip-length=large]::after{
+     white-space:normal;
+     width:300px;
+ }
+ [data-tooltip-length=fit]::after{
+     white-space:normal;
+     width:100%;
+ }
+ // IE 11 bugfix button[data-tooltip]{
+     overflow:visible;
+ }
+ // IE 11 bugfix button[data-tooltip]{
+     overflow:visible;
+ }
+ // IE 11 bugfix button[data-tooltip]{
+     overflow:visible;
+ }
+ #ice7{
+     width:100%;
+     max-width:100%;
+     height:100%;
+     background-image:url('https://cdn.streamsort.com/media/assets/manchesterBackground.jpg');
+     background-repeat:no-repeat;
+     background-position:center center;
+     background-attachment:scroll;
+     background-size:cover;
+ }
+ #i5cy3{
+     background-image:linear-gradient(#840606,#840606);
+     background-repeat:repeat;
+     background-position:left top;
+     background-attachment:scroll;
+     background-size:auto;
+     max-width:100%;
+     width:100%;
+     height:13%;
+ }
+ #i22q{
+     font-family:Candara, sans-serif;
+     color:#fff;
+     font-size:96px;
+     text-align:center;
+     margin:40vh 0 0 0;
+ }
+ #i7q6{
+     font-family:Candara, sans-serif;
+     color:#fff;
+     text-align:right;
+     font-size:14px;
+     margin:42vh 0 2vh 0;
+ }
+ #ipm3m{
+     padding:10px;
+     font-family:Candara, sans-serif;
+     color:#fff;
+     text-align:center;
+     max-width:100%;
+     width:100%;
+ }
+ #iwr9x{
+     min-height:0;
+ }
+ #i4q2j{
+     background-image:linear-gradient(#24282b,#24282b);
+     background-repeat:repeat;
+     background-position:left top;
+     background-attachment:scroll;
+     background-size:auto;
+     width:100%;
+     max-width:100%;
+     height:2%;
+ }
+ #ih8v1{
+     color:white;
+ }
+ #isrmf{
+     color:white;
+ }
+ #ilc0n{
+     color:white;
+ }
+ #izl6m{
+     color:white;
+ }
+ #ir824{
+     color:white;
+ }
+ #i539m{
+     color:white;
+ }
+ #i3d88{
+     width:100%;
+     max-width:100%;
+     height:85%;
+     background-image:linear-gradient(#eee,#eee);
+     background-repeat:repeat;
+     background-position:left top;
+     background-attachment:scroll;
+     background-size:auto;
+ }
+ #ie47i{
+     font-family:Candara, sans-serif;
+     color:#840606;
+     font-size:500%;
+     text-align:center;
+     margin:5vh 0 0 0;
+ }
+ #ivg3b{
+     font-family:Candara, sans-serif;
+     color:#840606;
+     font-size:200%;
+     text-align:center;
+     margin:0 0 5vh 0;
+ }
+ @media (max-width: 992px){
+     #i5cy3{
+         height:13%;
+     }
+     #i4q2j{
+         height:2%;
+     }
+ }
+ @media (max-width: 768px){
+     .row{
+         flex-wrap:wrap;
+     }
+ }
+ 
